@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.vishalbiji.TIC.TAC.TOE" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>|TIC.TAC.TOE| LTgames.</name>
+	<description>
+		UNBEATABLE AI BUILT TIC.TAC.TOE|LTgames.
+                Copyright © 2020 Lahsiv Technologies.All rights reserved.
+	</description>
+
+	<author email="lahsivtechnologies@gmail.com" href="">
+	   LT Team
+	</author>
+
+	<preference name="LT-version" value="cli-6.0.0" />
+
+<plugin name="cordova-plugin-splashscreen" source="npm" />
+<preference name="SplashScreenDelay" value="5000" />
+<splash platform="android" qualifier="port-ldpi" src="res/drawable-port-ldpi/screen.png"/>
+<splash platform="android" qualifier="port-mdpi" src="res/drawable-port-mdpi/screen.png"/> 
+<splash platform="android" qualifier="port-hdpi" src="res/drawable-port-hdpi/screen.png"/>
+<splash platform="android" qualifier="port-xhdpi" src="res/drawable-port-xhdpi/screen.png"/>
+<splash src="splash.png" />
+</widget>
