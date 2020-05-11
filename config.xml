@@ -12,24 +12,5 @@
 
 	<preference name="LT-version" value="cli-6.0.0" />
 	 
-    <gap:plugin name="org.apache.cordova.core.splashscreen" />
-
-
-    <!-- Define app icon for each platform. -->
-    <icon src="screen.png" />
-
-    <icon src="res/drawable-port-ldpi/screen.png" gap:platform="android"
-        gap:density="ldpi" />
-    <icon src="res/drawable-port-mdpi/screen.png" gap:platform="android"
-        gap:density="mdpi" />
-    <icon src="res/drawable-port-hdpi/screen.png" gap:platform="android"
-        gap:density="hdpi" />
-    <icon src="res/drawable-port-xhdpi/screen.png" gap:platform="android"
-        gap:density="xhdpi" />
-<preference name="SplashScreenDelay" value="5000" />
-<splash platform="android" qualifier="port-ldpi" src="res/drawable-port-ldpi/screen.png"/>
-<splash platform="android" qualifier="port-mdpi" src="res/drawable-port-mdpi/screen.png"/> 
-<splash platform="android" qualifier="port-hdpi" src="res/drawable-port-hdpi/screen.png"/>
-<splash platform="android" qualifier="port-xhdpi" src="res/drawable-port-xhdpi/screen.png"/>
-<splash src="splash.png" />
+    
 </widget>
