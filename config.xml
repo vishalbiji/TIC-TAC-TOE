@@ -11,20 +11,21 @@
 	</author>
 
 	<preference name="LT-version" value="cli-6.0.0" />
-	 <preference name="orientation" value="portrait" />
-  <preference name="fullscreen" value="true" />
-  <preference name="KeepRunning" value="false"/>
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="android-build-tool" value="gradle" />  
-  <plugin name="cordova-plugin-whitelist" source="npm" />
-  <plugin name="cordova-plugin-x-socialsharing" source="npm" />
-<plugin name="cordova-plugin-inappbrowser" source="npm"/>
-<plugin spec="https://github.com/vishalbiji/TIC-TAC-TOE" source="git" />
-<plugin name="cordova-plugin-network-information" source="npm" />
-<plugin name="cordova-universal-clipboard" source="npm"/>
-<plugin name="phonegap-plugin-barcodescanner" source="npm"/>
-<plugin name="cordova-plugin-x-toast" />
-<plugin name="cordova-plugin-splashscreen" source="npm" />
+	 
+    <gap:plugin name="org.apache.cordova.core.splashscreen" />
+
+
+    <!-- Define app icon for each platform. -->
+    <icon src="screen.png" />
+
+    <icon src="res/drawable-port-ldpi/screen.png" gap:platform="android"
+        gap:density="ldpi" />
+    <icon src="res/drawable-port-mdpi/screen.png" gap:platform="android"
+        gap:density="mdpi" />
+    <icon src="res/drawable-port-hdpi/screen.png" gap:platform="android"
+        gap:density="hdpi" />
+    <icon src="res/drawable-port-xhdpi/screen.png" gap:platform="android"
+        gap:density="xhdpi" />
 <preference name="SplashScreenDelay" value="5000" />
 <splash platform="android" qualifier="port-ldpi" src="res/drawable-port-ldpi/screen.png"/>
 <splash platform="android" qualifier="port-mdpi" src="res/drawable-port-mdpi/screen.png"/> 
