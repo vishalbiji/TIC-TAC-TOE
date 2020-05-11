@@ -6,12 +6,24 @@
                 Copyright © 2020 Lahsiv Technologies.All rights reserved.
 	</description>
 
-	<author email="lahsivtechnologies@gmail.com" href="">
+	<author email="lahsivtechnologies@gmail.com" href="https://github.com/vishalbiji/TIC-TAC-TOE">
 	   LT Team
 	</author>
 
 	<preference name="LT-version" value="cli-6.0.0" />
-
+	 <preference name="orientation" value="portrait" />
+  <preference name="fullscreen" value="true" />
+  <preference name="KeepRunning" value="false"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="android-build-tool" value="gradle" />  
+  <plugin name="cordova-plugin-whitelist" source="npm" />
+  <plugin name="cordova-plugin-x-socialsharing" source="npm" />
+<plugin name="cordova-plugin-inappbrowser" source="npm"/>
+<plugin spec="https://github.com/vishalbiji/TIC-TAC-TOE" source="git" />
+<plugin name="cordova-plugin-network-information" source="npm" />
+<plugin name="cordova-universal-clipboard" source="npm"/>
+<plugin name="phonegap-plugin-barcodescanner" source="npm"/>
+<plugin name="cordova-plugin-x-toast" />
 <plugin name="cordova-plugin-splashscreen" source="npm" />
 <preference name="SplashScreenDelay" value="5000" />
 <splash platform="android" qualifier="port-ldpi" src="res/drawable-port-ldpi/screen.png"/>
